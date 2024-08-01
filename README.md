@@ -87,11 +87,6 @@ sudo kubeadm init --apiserver-advertise-address=172.16.0.10 --pod-network-cidr=1
 ```
 
 
-
-sudo kubeadm join 172.16.0.10:6443 --token je03ye.vbuxjru43zr1lvdm --discovery-token-ca-cert-hash sha256:3b42f3b41622744c9afc6455eedae13e82d645bf1070f47ff3ba7cb48cf0c8dc
-
-
-
 After the initialization is complete, you'll see instructions for setting up kubectl. Follow those instructions:
 
 ```bash
