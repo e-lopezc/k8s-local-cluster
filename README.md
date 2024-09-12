@@ -1,4 +1,4 @@
-#  Creating a Kubernetes Cluster with Vagrant and VirtualBox and Ubuntu 22.04 as OS base.
+#  Creating a Kubernetes Cluster with Vagrant, VirtualBox and Ubuntu 22.04 as OS base.
 
 As part of my learning just documented the process of setting up a Kubernetes cluster with one master node and two worker nodes using Vagrant and VirtualBox. The cluster will run with Kubernetes v1.29 and Ubuntu 22.04 LTS as OS base for the master and workers nodes.
 
@@ -162,7 +162,7 @@ You can now access the nginx service from your host machine by visiting `http://
 
 ## Conclusion
 
-You now have a functioning Kubernetes cluster with one master node and two worker nodes running on your local Ubuntu 22.04 machine using Vagrant and VirtualBox. You can start deploying your applications to this cluster for testing and development purposes.
+You now have a functioning Kubernetes cluster with one master node and two worker nodes running on Ubuntu 22.04 virtual machines using Vagrant and VirtualBox. You can start deploying your applications to this cluster for testing and development purposes.
 
 Remember to shut down the VMs when you're done:
 
